@@ -1,0 +1,123 @@
+//Rota para pegar o valor PU de Resgate do Ativo
+https://api.xpi.com.br/rede-fixedincome/v1/orders/customers/2122924/sales/16959511/validation
+
+{
+  "custodyPositionId": 22761012,
+  "typeSale": 3,
+  "nickName": "CRI MRV - FEV/2029",
+  "assetId": 1008082,
+  "unitPrice": 1000,
+  "priceApplied": 1000,//Preço da compra
+  "quantityAvailable": 100,
+  "quantityBlocked": 0,
+  "quantityAvailableForSale": 1000,
+  "pricePositionBlocked": 0.000000,
+  "amountApplied": 100,
+  "currentValue": 0,
+  "incomeTax": 0,
+  "redemptionIncomeTax": 0.00000000,
+  "descriptionFee": "IPC-A +6,60%",
+  "fixedIncomeOrder": {
+    "custodyPositionId": 22761012,
+    "virtualCustodyPositionId": 16959511,
+    "orderType": 15,
+    "userLoginCode": "",
+    "platformAssetId": 1008082,
+    "brokerageFirm": 3,
+    "customerAccountNumber": 2122924,
+    "assetQuantity": 0,
+    "customerPercentIndexValue": 100,
+    "customerUnitPrice": 1039.115981,
+    "customerRate": 7.64,
+    "customerBoundCompany": null,
+    "unitPriceId": 0,
+    "userLoginIp": ""
+  },
+  "price": [
+    {
+      "conditions": 1,
+      "grossposition": 108346.364800, //Posição Atual Bruta
+      "grossincome": 8346.364800,
+      "netyield": 8346.364800,
+      "netposition": 108346.364800 
+    },
+    {
+      "conditions": 3,
+      "grossposition": 103911.598100, //Valor de resgate com ROA Máximo
+      "grossincome": 3911.598100,
+      "netyield": 3911.59810000,
+      "netposition": 103911.59810000
+    }
+  ],
+  "redemptionPrice": 1039.115981,
+  "currentPrice": 1083.463648,
+  "priceCode": 0,
+  "customerProfitability": null,
+  "errorMessage": "",
+  "errorType": 0,
+  "blocks": null,
+  "redemptionOptions": [
+    {
+      "code": 27794494,
+      "descriptionFee": "IPC-A + 7,64%",
+      "unitPrice": 1039.115981,
+      "rate": 7.64,
+      "indexPercentage": null,
+      "roa": 0.79,
+      "roae": 0.395,
+      "customerProfitability": 68.02,
+      "incomeTax": 0.00000000
+    },
+    {
+      "code": 27794493,
+      "descriptionFee": "IPC-A + 7,59%",
+      "unitPrice": 1041.18288,
+      "rate": 7.59,
+      "indexPercentage": null,
+      "roa": 0.59,
+      "roae": 0.295,
+      "customerProfitability": 69.03,
+      "incomeTax": 0.00000000
+    },
+    {
+      "code": 27794492,
+      "descriptionFee": "IPC-A + 7,54%",
+      "unitPrice": 1043.255281,
+      "rate": 7.54,
+      "indexPercentage": null,
+      "roa": 0.39,
+      "roae": 0.195,
+      "customerProfitability": 70.05,
+      "incomeTax": 0.00000000
+    },
+    {
+      "code": 27794491,
+      "descriptionFee": "IPC-A + 7,49%",
+      "unitPrice": 1045.333194,
+      "rate": 7.49,
+      "indexPercentage": null,
+      "roa": 0.19,
+      "roae": 0.095,
+      "customerProfitability": 71.06,
+      "incomeTax": 0.00000000
+    },
+    {
+      "code": 27794490,
+      "descriptionFee": "IPC-A + 7,44%",
+      "unitPrice": 1047.41664, //PU do resgate com ROA Minimo
+      "rate": 7.44,
+      "indexPercentage": null,
+      "roa": 0,
+      "roae": 0,
+      "customerProfitability": 72.08,
+      "incomeTax": 0.00000000
+    }
+  ],
+  "edspuCodeTerm": null,
+  "inactiveDate": null,
+  "customerFee": "IPC-A + 7,64%",
+  "rating": null,
+  "issuerName": null,
+  "maturityDate": "2029-02-15T00:00:00",
+  "mtm": null
+}

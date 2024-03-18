@@ -1,0 +1,37 @@
+//https://api.xpi.com.br/rede-fixedincome/v1/orders/sale/manual/customers/3601793/orders/49234161
+
+
+{
+    "data": {
+      "platformAssetId": 253710,
+      "assetName": "DEB FLU U GRRB24",
+      "assetNickName": "DEB AGUAS GUARIROBA - JUL/2029",
+      "assetDueDate": "2029-07-15T00:00:00",
+      "assetRate": "IPC-A",
+      "custodyPositionId": 27963869,
+      "assetQuantityPosition": 5,
+      "unitPricePurchase": 10342.7352,
+      "unitPriceCurve": 12591.966424,
+      "custodyPositionAmount": 62959.832120,
+      "plataformOrderId": 49234606,
+      "platformDateOrder": "2023-09-05T11:13:31",
+      "platformAssetQuantity": 5,
+      "platformUnitPriceOrder": 0.0,
+      "redemptionPosition": 0.0,
+      "platformStatus": 7,
+      "platformNameStatus": "Cotação registrada",
+      "platformTypeOrder": 2,
+      "platformNameTypeOrder": "Resgate",
+      "unitPriceQuote": 11089.487133,
+      "redemptionPercentIndexQuote": 100.0,
+      "rateQuote": 8.1,
+      "redemptionQuotePosition": 55447.435665,
+      "customerAccountNumber": 3601793,
+      "assetRateRedemption": "IPC-A +8,1%",
+      "incomeTax": 560.06395000,
+      "grossIncome": 3733.759665000005,
+      "netIncome": 3173.695715000005,
+      "virtualId": 21615263
+    },
+    "validationErrors": null
+  }

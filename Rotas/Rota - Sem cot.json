@@ -1,0 +1,67 @@
+//Quando é realizada a cotação e o ativo não tem cotação
+https://api.xpi.com.br/rede-fixedincome/v1/orders/customers/5921255/sales/19100357/term
+
+{
+  "custodyPositionId": 25182309,
+  "typeSale": 3,
+  "nickName": "CRA BEM BRASIL - MAI/2029",
+  "assetId": 1148702,
+  "unitPrice": 1000,
+  "priceApplied": 1000,
+  "quantityAvailable": 2500,
+  "quantityBlocked": 0,
+  "quantityAvailableForSale": 0,
+  "pricePositionBlocked": 0.000000,
+  "amountApplied": 2500,
+  "currentValue": 0,
+  "incomeTax": 0,
+  "redemptionIncomeTax": 0,
+  "descriptionFee": "IPC-A +6,53%",
+  "fixedIncomeOrder": {
+    "custodyPositionId": 25182309,
+    "virtualCustodyPositionId": 19100357,
+    "orderType": 15,
+    "userLoginCode": "",
+    "platformAssetId": 1148702,
+    "brokerageFirm": 3,
+    "customerAccountNumber": 5921255,
+    "assetQuantity": 0,
+    "customerPercentIndexValue": 100,
+    "customerUnitPrice": 0,
+    "customerRate": 6.5348,
+    "customerBoundCompany": null,
+    "unitPriceId": 0,
+    "userLoginIp": ""
+  },
+  "price": [
+    {
+      "conditions": 1,
+      "grossposition": 2660489.817500,
+      "grossincome": 160489.817500,
+      "netyield": 160489.817500,
+      "netposition": 2660489.817500
+    },
+    {
+      "conditions": 3,
+      "grossposition": 0,
+      "grossincome": -2500000,
+      "netyield": -2500000,
+      "netposition": 0
+    }
+  ],
+  "redemptionPrice": 0,
+  "currentPrice": 1064.195927,
+  "priceCode": 0,
+  "customerProfitability": null,
+  "errorMessage": "",
+  "errorType": 6,
+  "blocks": null,
+  "redemptionOptions": [],
+  "edspuCodeTerm": null,
+  "inactiveDate": null,
+  "customerFee": null,
+  "rating": null,
+  "issuerName": null,
+  "maturityDate": "2029-05-15T00:00:00",
+  "mtm": null
+}

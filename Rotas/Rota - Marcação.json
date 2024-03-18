@@ -1,0 +1,30 @@
+{
+    "output": {
+        "name": "",
+        "xpAccount": 12345,
+        "email": "",
+        "phoneNumber": "(31)9999999",
+        "visulizationType": "Mercado",
+        "curvePatrimony": 434980.04771096,
+        "marketPatrimony": 421418.91236852,
+        "amount": 719.47,
+        "declaredPatrimony": 8200000.0,
+        "advisorName": "VENETO CONSULTORIA E GESTAO DE RECURSOS LTDA (CARLOS.GCA61136)",
+        "advisorCode": "A61136",
+        "fixedFee": "Não",
+        "suitability": "Agressivo",
+        "investorType": "Investidor Qualificado",
+        "expirationDate": "2024-09-26T00:00:00",
+        "expirationDateDisplay": "26/09/2024",
+        "sow": "43%",
+        "curvePatrimonyDisplay": "R$ 434.980,05",
+        "marketPatrimonyDisplay": "R$ 421.418,91",
+        "balanceDisplay": "R$ 719,47",
+        "declaredPatrimonyDisplay": "R$ 8.200.000,00",
+        "hasJointAccount": false,
+        "jointAccountName": "",
+        "crm": null
+    },
+    "success": true,
+    "message": "Operação realizada com sucesso."
+}

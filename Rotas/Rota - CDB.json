@@ -1,0 +1,61 @@
+{
+    "custodyPositionId": 14631216,
+    "typeSale": 2,
+    "nickName": "CDB BANCO PAN S/A - OUT/2026",
+    "assetId": 427050,
+    "unitPrice": 1000,
+    "priceApplied": 1000,
+    "quantityAvailable": 20,
+    "quantityBlocked": 0,
+    "quantityAvailableForSale": 0,
+    "pricePositionBlocked": 0,
+    "amountApplied": 20,
+    "currentValue": 0,
+    "incomeTax": 0,
+    "redemptionIncomeTax": 766.20044000,
+    "descriptionFee": "IPC-A +4,80%",
+    "fixedIncomeOrder": {
+      "automaticQuotationId": 0,
+      "virtualCustodyPositionId": 9365380,
+      "orderType": 14,
+      "customerPercentIndexValue": null,
+      "customerRate": 8.9000,
+      "customerUnitPrice": 1255.40014561,
+      "brokerageFirm": 3,
+      "customerAccountNumber": 525552,
+      "assetQuantity": 0,
+      "userLoginCode": "",
+      "userLoginIp": ""
+    },
+    "price": [
+      {
+        "conditions": 1,
+        "grossposition": 28309.2494220,
+        "grossincome": 8309.2494220,
+        "netyield": 8309.2494220,
+        "netposition": 28309.2494220
+      },
+      {
+        "conditions": 2,
+        "grossposition": 25108.00291220,
+        "grossincome": 5108.00291220,
+        "netyield": 4341.80247220,
+        "netposition": 24341.80247220
+      }
+    ],
+    "redemptionPrice": 1255.40014561,
+    "currentPrice": 1415.4624711,
+    "priceCode": 0,
+    "customerProfitability": 91.28,
+    "errorMessage": "",
+    "errorType": 0,
+    "blocks": null,
+    "redemptionOptions": [],
+    "edspuCodeTerm": null,
+    "inactiveDate": null,
+    "customerFee": null,
+    "rating": null,
+    "issuerName": null,
+    "maturityDate": "2026-10-22T00:00:00",
+    "mtm": null
+  }

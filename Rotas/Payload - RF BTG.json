@@ -1,0 +1,55 @@
+{
+    "accountNumber": "002246104",
+    "accountingGroupCode": "Debênture",
+    "fixedIncomeAcquisitions": [
+      {
+        "accountNumber": null,
+        "acquisitionDate": "2020-10-13T00:00:00.000-0300",
+        "acquisitionQuantity": 11,
+        "costPrice": 1053.0724,
+        "grossValue": 11709.28,
+        "iofTax": 0,
+        "incomeTax": 0,
+        "initialInvestmentQuantity": 11,
+        "initialInvestmentValue": 11583.79,
+        "netValue": 11709.28,
+        "positionDate": "2023-10-18T11:50:47.000-0300",
+        "securityCode": "1860762",
+        "yieldToMaturity": 4.75,
+        "tradeId": 2296510,
+        "interfaceDate": "2023-10-17T00:00:00.000-0300",
+        "priceIncomeTax": 0,
+        "priceVirtualIof": 0,
+        "transferId": "11146678",
+        "prices": [
+          {
+            "priceType": 200,
+            "price": 1064.4800245446816,
+            "incomeTax": 0,
+            "iOFTax": 0
+          },
+          {
+            "priceType": 9,
+            "price": 995.238938,
+            "incomeTax": 0,
+            "iOFTax": 0
+          }
+        ]
+      }
+    ],
+    "referenceIndexName": "IPCA",
+    "ticker": "DEB-CUTI11",
+    "yield": 4.75
+  }
+
+  # Como deve ser o tratamento de dados 
+  # para a criação do payload para a realização da Requisição
+
+  {
+    "accountNumber": nbBtg,
+    "accountingGroupCode": ativo['accountingGroupCode'],
+    "fixedIncomeAcquisitions": ativo['fixedIncomeAcquisitions'],
+    "referenceIndexName": ativo['referenceIndexName'],
+    "ticker": ativo['ticker'],
+    "yield": ativo['yield']
+  }
